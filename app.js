@@ -9,11 +9,11 @@ const products = [
     colors: [
       {
         code: "black",
-        img: "./img/air.png",
+        img: "air.png",
       },
       {
         code: "darkblue",
-        img: "./img/air2.png",
+        img: "air2.png",
       },
     ],
   },
@@ -24,11 +24,11 @@ const products = [
     colors: [
       {
         code: "lightgray",
-        img: "./img/jordan.png",
+        img: "jordan.png",
       },
       {
         code: "green",
-        img: "./img/jordan2.png",
+        img: "jordan2.png",
       },
     ],
   },
@@ -39,11 +39,11 @@ const products = [
     colors: [
       {
         code: "lightgray",
-        img: "./img/blazer.png",
+        img: "blazer.png",
       },
       {
         code: "green",
-        img: "./img/blazer2.png",
+        img: "blazer2.png",
       },
     ],
   },
@@ -54,11 +54,11 @@ const products = [
     colors: [
       {
         code: "black",
-        img: "./img/crater.png",
+        img: "crater.png",
       },
       {
         code: "lightgray",
-        img: "./img/crater2.png",
+        img: "crater2.png",
       },
     ],
   },
@@ -69,11 +69,11 @@ const products = [
     colors: [
       {
         code: "gray",
-        img: "./img/hippie.png",
+        img: "hippie.png",
       },
       {
         code: "black",
-        img: "./img/hippie2.png",
+        img: "hippie2.png",
       },
     ],
   },
@@ -97,7 +97,7 @@ menuItems.forEach((item, index) => {
 
     //change texts of currentProduct
     currentProductTitle.textContent = choosenProduct.title;
-    currentProductPrice.textContent = "$" + choosenProduct.price;
+    currentProductPrice.textContent = "£" + choosenProduct.price;
     currentProductImg.src = choosenProduct.colors[0].img;
 
     //assing new colors
